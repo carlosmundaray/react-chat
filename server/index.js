@@ -5,7 +5,7 @@ const http = require('http').Server(app);
 const PORT = 4000
 const io = require('socket.io')(http, {
     cors: {
-        origin: "https://react-chat-delta-one.vercel.app"
+        origin: "https://react-chat-hkr51bm2m-carlosmundaray777s-projects.vercel.app"
     }
 });
 
